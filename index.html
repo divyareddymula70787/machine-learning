@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 15px;
+            text-decoration: none;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: #007bff;
+            color: white;
+        }
+
+        .hero button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            border: none;
+            background: white;
+            color: #007bff;
+            cursor: pointer;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to My Page</h2>
+        <p>This is a simple HTML and CSS design.</p>
+        <button>Learn More</button>
+    </section>
+
+    <section class="cards">
+        <div class="card">
+            <h3>Card 1</h3>
+            <p>Some content here</p>
+        </div>
+        <div class="card">
+            <h3>Card 2</h3>
+            <p>Some content here</p>
+        </div>
+        <div class="card">
+            <h3>Card 3</h3>
+            <p>Some content here</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 My Website</p>
+    </footer>
+
+</body>
+</html>
