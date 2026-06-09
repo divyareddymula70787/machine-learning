@@ -1,111 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Web Page</title>
+<title>My First Website</title>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
+<style>
+body{
+background-color: lightblue;
+text-align:center;
+font-family: Arial;
+}
 
-        body {
-            background-color: #f4f4f4;
-        }
+h1{
+color: darkblue;
+}
 
-        header {
-            background: #333;
-            color: white;
-            padding: 15px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        nav a {
-            color: white;
-            margin-left: 15px;
-            text-decoration: none;
-        }
-
-        .hero {
-            text-align: center;
-            padding: 50px;
-            background: #007bff;
-            color: white;
-        }
-
-        .hero button {
-            margin-top: 10px;
-            padding: 10px 20px;
-            border: none;
-            background: white;
-            color: #007bff;
-            cursor: pointer;
-        }
-
-        .cards {
-            display: flex;
-            justify-content: space-around;
-            margin: 20px;
-        }
-
-        .card {
-            background: white;
-            padding: 20px;
-            width: 30%;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background: #333;
-            color: white;
-        }
-    </style>
+button{
+padding:10px;
+}
+</style>
 
 </head>
+
 <body>
 
-    <header>
-        <h1>My Website</h1>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </nav>
-    </header>
+<h1>Welcome to My Website</h1>
 
-    <section class="hero">
-        <h2>Welcome to My Page</h2>
-        <p>This is a simple HTML and CSS design.</p>
-        <button>Learn More</button>
-    </section>
+<p>Hello, My Name is Divya.</p>
 
-    <section class="cards">
-        <div class="card">
-            <h3>Card 1</h3>
-            <p>Some content here</p>
-        </div>
-        <div class="card">
-            <h3>Card 2</h3>
-            <p>Some content here</p>
-        </div>
-        <div class="card">
-            <h3>Card 3</h3>
-            <p>Some content here</p>
-        </div>
-    </section>
+<img src="https://picsum.photos/150" alt="Image">
 
-    <footer>
-        <p>© 2026 My Website</p>
-    </footer>
+<br><br>
+
+<a href="https://www.google.com">Visit Google</a>
+
+<br><br>
+
+<button onclick="showMessage()">Click Me</button>
+
+<script>
+function showMessage(){
+alert("Welcome to Web Development!");
+}
+</script>
 
 </body>
 </html>
